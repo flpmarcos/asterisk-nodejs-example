@@ -1,6 +1,18 @@
 # Exemplos de código utilizando asterisk em nodejs
 npm install
 
+## Links para estudo 
+### Asterisk
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+AMI+Actions
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+AMI+Events
+
+### Biblioteca nodeJS para Asterisk
+
+https://www.npmjs.com/package/asterisk-ami-client#example-1
+
+
+
+
 ## Ações e eventos de Fila
 
 ### Comos usar Arquivos queue/
@@ -17,7 +29,7 @@ ex: node queue/queue.js C9-3
 
 ### Criar uma nova sala de conferencia 
 
-node conference-create.js <channel> <data>
+node conference/conference-create.js <channel> <data>
 <channel> -> canal que vai ser acionado para inciar a sala SIP/1000
 <data> -> numero da sala 12345
 
@@ -28,9 +40,7 @@ ex: node conference-create.js SIP/1000 12345
 
 Exemplo de comando: 
 
-node conference-actions.js ConfbridgeList <conference> <channel>
-
-node conference-actions.js ConfbridgeList <conference> <channel>
+node conference/conference-actions.js ConfbridgeList <conference> <channel>
 
 <conference> -> Numero da sala de conferencia (necessario em algumas ações)
 <channel> -> Canal da sala de conferencia (necessario em algumas ações)
