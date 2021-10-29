@@ -27,54 +27,34 @@ Exemplo de comando:
 node conference-actions.js ConfbridgeList <conference> <channel>
 
 node conference-actions.js ConfbridgeList <conference> <channel>
-#### <conference> -> Numero da sala de conferencia (necessario em algumas ações)
-#### <channel> -> Canal da sala de conferencia (necessario em algumas ações)
+
+<conference> -> Numero da sala de conferencia (necessario em algumas ações)
+<channel> -> Canal da sala de conferencia (necessario em algumas ações)
 
 
 Listar todas as salas -- Command -> ConfbridgeListRooms
-#### Action: ConfbridgeListRooms
-#### ActionID: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeListRooms
 
 Listar sala especifica -- Command -> ConfbridgeList
-Action: ConfbridgeList
-#### ActionID: <value>
-#### Conference: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeList
 
 Retirar usuário da conferencia -- Command -> ConfbridgeKick
-#### Action: ConfbridgeKick
-#### ActionID: <value>
-#### Conference: <value>
-#### Channel: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeKick
 
 Mutar alguem na sala -- Command -> ConfbridgeMute
-#### Action: ConfbridgeMute
-#### ActionID: <value>
-#### Conference: <value>
-#### Channel: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeMute
 
 Desmutar alguém na sala -- Command -> ConfbridgeUnmute
-#### Action: ConfbridgeUnmute
-#### ActionID: <value>
-#### Conference: <value>
-#### Channel: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeUnmute
 
 Gravar sala de conferencia -- Command -> ConfbridgeStartRecord
-#### Action: ConfbridgeStartRecord
-#### ActionID: <value>
-#### Conference: <value>
-#### [RecordFile:] <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeStartRecord
 
 Parar gravação na sala de conferencia -- Command -> ConfbridgeStopRecord
-#### Action: ConfbridgeStopRecord
-#### ActionID: <value>
-#### Conference: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeStopRecord
 
 Bloquear sala de conferencia -- Command -> ConfbridgeLock
-#### Action: ConfbridgeLock
-#### ActionID: <value>
-#### Conference: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeLock
 
 Desbloquear sala de conferencia -- Command -> ConfbridgeUnlock
-#### Action: ConfbridgeUnlock
-#### ActionID: <value>
-#### Conference: <value></value>
+https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_ConfbridgeUnlock
