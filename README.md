@@ -1,7 +1,9 @@
 # Exemplos de código utilizando asterisk em nodejs
 npm install
 
-## Comos usar Arquivos queue/
+## Ações e eventos de Fila
+
+### Comos usar Arquivos queue/
 Execute o comando  
 
 node queue.js <nomedafila>
@@ -9,9 +11,11 @@ node queue.js <nomedafila>
 ex: node queue/queue.js C9-3
 
 
-## Comos usar Arquivos conference/
+## Ações e eventos de Conferencia
 
-### Criar uma nova fila 
+### Comos usar Arquivos conference/
+
+### Criar uma nova sala de conferencia 
 
 node conference-create.js <channel> <data>
 <channel> -> canal que vai ser acionado para inciar a sala SIP/1000
