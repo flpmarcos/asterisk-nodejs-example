@@ -1,0 +1,24 @@
+{
+  "name": "asterisk-nodejs-example",
+  "version": "1.0.0",
+  "description": "asterisk example using nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flpmarcos/asterisk-nodejs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flpmarcos/asterisk-nodejs-example/issues"
+  },
+  "homepage": "https://github.com/flpmarcos/asterisk-nodejs-example#readme",
+  "dependencies": {
+    "asterisk-ami-client": "^1.1.5",
+    "dotenv": "^10.0.0",
+    "uuid": "^8.3.2"
+  }
+}
