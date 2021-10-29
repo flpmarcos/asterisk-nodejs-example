@@ -27,54 +27,54 @@ Exemplo de comando:
 node conference-actions.js ConfbridgeList <conference> <channel>
 
 node conference-actions.js ConfbridgeList <conference> <channel>
-<conference> -> Numero da sala de conferencia (necessario em algumas ações)
-<channel> -> Canal da sala de conferencia (necessario em algumas ações)
+#### <conference> -> Numero da sala de conferencia (necessario em algumas ações)
+#### <channel> -> Canal da sala de conferencia (necessario em algumas ações)
 
 
 Listar todas as salas -- Command -> ConfbridgeListRooms
-Action: ConfbridgeListRooms
-ActionID: <value></value>
+#### Action: ConfbridgeListRooms
+#### ActionID: <value></value>
 
 Listar sala especifica -- Command -> ConfbridgeList
 Action: ConfbridgeList
-ActionID: <value>
-Conference: <value></value>
+#### ActionID: <value>
+#### Conference: <value></value>
 
 Retirar usuário da conferencia -- Command -> ConfbridgeKick
-Action: ConfbridgeKick
-ActionID: <value>
-Conference: <value>
-Channel: <value></value>
+#### Action: ConfbridgeKick
+#### ActionID: <value>
+#### Conference: <value>
+#### Channel: <value></value>
 
 Mutar alguem na sala -- Command -> ConfbridgeMute
-Action: ConfbridgeMute
-ActionID: <value>
-Conference: <value>
-Channel: <value></value>
+#### Action: ConfbridgeMute
+#### ActionID: <value>
+#### Conference: <value>
+#### Channel: <value></value>
 
 Desmutar alguém na sala -- Command -> ConfbridgeUnmute
-Action: ConfbridgeUnmute
-ActionID: <value>
-Conference: <value>
-Channel: <value></value>
+#### Action: ConfbridgeUnmute
+#### ActionID: <value>
+#### Conference: <value>
+#### Channel: <value></value>
 
 Gravar sala de conferencia -- Command -> ConfbridgeStartRecord
-Action: ConfbridgeStartRecord
-ActionID: <value>
-Conference: <value>
-[RecordFile:] <value></value>
+#### Action: ConfbridgeStartRecord
+#### ActionID: <value>
+#### Conference: <value>
+#### [RecordFile:] <value></value>
 
 Parar gravação na sala de conferencia -- Command -> ConfbridgeStopRecord
-Action: ConfbridgeStopRecord
-ActionID: <value>
-Conference: <value></value>
+#### Action: ConfbridgeStopRecord
+#### ActionID: <value>
+#### Conference: <value></value>
 
 Bloquear sala de conferencia -- Command -> ConfbridgeLock
-Action: ConfbridgeLock
-ActionID: <value>
-Conference: <value></value>
+#### Action: ConfbridgeLock
+#### ActionID: <value>
+#### Conference: <value></value>
 
 Desbloquear sala de conferencia -- Command -> ConfbridgeUnlock
-Action: ConfbridgeUnlock
-ActionID: <value>
-Conference: <value></value>
+#### Action: ConfbridgeUnlock
+#### ActionID: <value>
+#### Conference: <value></value>
